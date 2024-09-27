@@ -1,4 +1,4 @@
-FROM tomcat:latest
+FROM nginx:latest
 Maintainer Dinesh kalluri
 WORKDIR /etc
 CMD mkdir /opt/maven/
